@@ -2,8 +2,8 @@ FROM openjdk
 
 WORKDIR /app
 
-COPY Salma.java .
+COPY Rana.java .
 
-RUN javac Salma.java
+RUN javac Rana.java
 
-CMD java Salma
+CMD java Rana
